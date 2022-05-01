@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C01D6DF5281D477100B1E552 /* ImageLoaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D6DF4281D477100B1E552 /* ImageLoaderApp.swift */; };
-		C01D6DF7281D477100B1E552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D6DF6281D477100B1E552 /* ContentView.swift */; };
-		C01D6DF9281D477300B1E552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D6DF8281D477300B1E552 /* Assets.xcassets */; };
-		C01D6DFC281D477300B1E552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D6DFB281D477300B1E552 /* Preview Assets.xcassets */; };
+		C006D48A28210CD3007BD636 /* ExercisesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D48928210CD3007BD636 /* ExercisesApp.swift */; };
+		C006D48E28210CD4007BD636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C006D48D28210CD4007BD636 /* Assets.xcassets */; };
+		C006D49128210CD4007BD636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C006D49028210CD4007BD636 /* Preview Assets.xcassets */; };
+		C006D49928210D2B007BD636 /* ImageLoaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49828210D2B007BD636 /* ImageLoaderDemo.swift */; };
+		C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49B28210DA0007BD636 /* KnobColorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C01D6DF1281D477100B1E552 /* 03_ImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 03_ImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C01D6DF4281D477100B1E552 /* ImageLoaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderApp.swift; sourceTree = "<group>"; };
-		C01D6DF6281D477100B1E552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C01D6DF8281D477300B1E552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C01D6DFB281D477300B1E552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C006D48628210CD3007BD636 /* Exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C006D48928210CD3007BD636 /* ExercisesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesApp.swift; sourceTree = "<group>"; };
+		C006D48D28210CD4007BD636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C006D49028210CD4007BD636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C006D49828210D2B007BD636 /* ImageLoaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderDemo.swift; sourceTree = "<group>"; };
+		C006D49B28210DA0007BD636 /* KnobColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobColorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C01D6DEE281D477100B1E552 /* Frameworks */ = {
+		C006D48328210CD3007BD636 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,77 +34,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C01D6DE8281D477100B1E552 = {
+		C006D47D28210CD3007BD636 = {
 			isa = PBXGroup;
 			children = (
-				C01D6DF3281D477100B1E552 /* 03_ImageLoader */,
-				C01D6DF2281D477100B1E552 /* Products */,
+				C006D48828210CD3007BD636 /* Exercises */,
+				C006D48728210CD3007BD636 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C01D6DF2281D477100B1E552 /* Products */ = {
+		C006D48728210CD3007BD636 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C01D6DF1281D477100B1E552 /* 03_ImageLoader.app */,
+				C006D48628210CD3007BD636 /* Exercises.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C01D6DF3281D477100B1E552 /* 03_ImageLoader */ = {
+		C006D48828210CD3007BD636 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
-				C01D6DF4281D477100B1E552 /* ImageLoaderApp.swift */,
-				C01D6DF6281D477100B1E552 /* ContentView.swift */,
-				C01D6DF8281D477300B1E552 /* Assets.xcassets */,
-				C01D6DFA281D477300B1E552 /* Preview Content */,
+				C006D49728210CFD007BD636 /* 02_ImageLoader */,
+				C006D49A28210D74007BD636 /* 03_KnobColor */,
+				C006D48928210CD3007BD636 /* ExercisesApp.swift */,
+				C006D48D28210CD4007BD636 /* Assets.xcassets */,
+				C006D48F28210CD4007BD636 /* Preview Content */,
 			);
-			path = 03_ImageLoader;
+			path = Exercises;
 			sourceTree = "<group>";
 		};
-		C01D6DFA281D477300B1E552 /* Preview Content */ = {
+		C006D48F28210CD4007BD636 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C01D6DFB281D477300B1E552 /* Preview Assets.xcassets */,
+				C006D49028210CD4007BD636 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C006D49728210CFD007BD636 /* 02_ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C006D49828210D2B007BD636 /* ImageLoaderDemo.swift */,
+			);
+			path = 02_ImageLoader;
+			sourceTree = "<group>";
+		};
+		C006D49A28210D74007BD636 /* 03_KnobColor */ = {
+			isa = PBXGroup;
+			children = (
+				C006D49B28210DA0007BD636 /* KnobColorDemo.swift */,
+			);
+			path = 03_KnobColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C01D6DF0281D477100B1E552 /* 03_ImageLoader */ = {
+		C006D48528210CD3007BD636 /* Exercises */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01D6DFF281D477300B1E552 /* Build configuration list for PBXNativeTarget "03_ImageLoader" */;
+			buildConfigurationList = C006D49428210CD4007BD636 /* Build configuration list for PBXNativeTarget "Exercises" */;
 			buildPhases = (
-				C01D6DED281D477100B1E552 /* Sources */,
-				C01D6DEE281D477100B1E552 /* Frameworks */,
-				C01D6DEF281D477100B1E552 /* Resources */,
+				C006D48228210CD3007BD636 /* Sources */,
+				C006D48328210CD3007BD636 /* Frameworks */,
+				C006D48428210CD3007BD636 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 03_ImageLoader;
-			productName = 03_ImageLoader;
-			productReference = C01D6DF1281D477100B1E552 /* 03_ImageLoader.app */;
+			name = Exercises;
+			productName = Exercises;
+			productReference = C006D48628210CD3007BD636 /* Exercises.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C01D6DE9281D477100B1E552 /* Project object */ = {
+		C006D47E28210CD3007BD636 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					C01D6DF0281D477100B1E552 = {
+					C006D48528210CD3007BD636 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = C01D6DEC281D477100B1E552 /* Build configuration list for PBXProject "03_ImageLoader" */;
+			buildConfigurationList = C006D48128210CD3007BD636 /* Build configuration list for PBXProject "Exercises" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +129,43 @@
 				en,
 				Base,
 			);
-			mainGroup = C01D6DE8281D477100B1E552;
-			productRefGroup = C01D6DF2281D477100B1E552 /* Products */;
+			mainGroup = C006D47D28210CD3007BD636;
+			productRefGroup = C006D48728210CD3007BD636 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C01D6DF0281D477100B1E552 /* 03_ImageLoader */,
+				C006D48528210CD3007BD636 /* Exercises */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C01D6DEF281D477100B1E552 /* Resources */ = {
+		C006D48428210CD3007BD636 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01D6DFC281D477300B1E552 /* Preview Assets.xcassets in Resources */,
-				C01D6DF9281D477300B1E552 /* Assets.xcassets in Resources */,
+				C006D49128210CD4007BD636 /* Preview Assets.xcassets in Resources */,
+				C006D48E28210CD4007BD636 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C01D6DED281D477100B1E552 /* Sources */ = {
+		C006D48228210CD3007BD636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01D6DF7281D477100B1E552 /* ContentView.swift in Sources */,
-				C01D6DF5281D477100B1E552 /* ImageLoaderApp.swift in Sources */,
+				C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */,
+				C006D49928210D2B007BD636 /* ImageLoaderDemo.swift in Sources */,
+				C006D48A28210CD3007BD636 /* ExercisesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C01D6DFD281D477300B1E552 /* Debug */ = {
+		C006D49228210CD4007BD636 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		C01D6DFE281D477300B1E552 /* Release */ = {
+		C006D49328210CD4007BD636 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +279,14 @@
 			};
 			name = Release;
 		};
-		C01D6E00281D477300B1E552 /* Debug */ = {
+		C006D49528210CD4007BD636 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"03_ImageLoader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Exercises/Preview Content\"";
 				DEVELOPMENT_TEAM = LAH32MJT38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.itwenty.-3-ImageLoader";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.itwenty.Exercises;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +308,14 @@
 			};
 			name = Debug;
 		};
-		C01D6E01281D477300B1E552 /* Release */ = {
+		C006D49628210CD4007BD636 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"03_ImageLoader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Exercises/Preview Content\"";
 				DEVELOPMENT_TEAM = LAH32MJT38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.itwenty.-3-ImageLoader";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.itwenty.Exercises;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01D6DEC281D477100B1E552 /* Build configuration list for PBXProject "03_ImageLoader" */ = {
+		C006D48128210CD3007BD636 /* Build configuration list for PBXProject "Exercises" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01D6DFD281D477300B1E552 /* Debug */,
-				C01D6DFE281D477300B1E552 /* Release */,
+				C006D49228210CD4007BD636 /* Debug */,
+				C006D49328210CD4007BD636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01D6DFF281D477300B1E552 /* Build configuration list for PBXNativeTarget "03_ImageLoader" */ = {
+		C006D49428210CD4007BD636 /* Build configuration list for PBXNativeTarget "Exercises" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01D6E00281D477300B1E552 /* Debug */,
-				C01D6E01281D477300B1E552 /* Release */,
+				C006D49528210CD4007BD636 /* Debug */,
+				C006D49628210CD4007BD636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C01D6DE9281D477100B1E552 /* Project object */;
+	rootObject = C006D47E28210CD3007BD636 /* Project object */;
 }

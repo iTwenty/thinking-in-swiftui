@@ -73,7 +73,7 @@ struct ImageLoaderDemo: View {
     @StateObject var vm = PhotoListVM()
 
     var body: some View {
-        NavigationView {
+        Group {
             switch vm.photoListResult {
             case .none:
                 ProgressView()

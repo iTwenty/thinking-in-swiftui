@@ -12,6 +12,8 @@
 		C006D49128210CD4007BD636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C006D49028210CD4007BD636 /* Preview Assets.xcassets */; };
 		C006D49928210D2B007BD636 /* ImageLoaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49828210D2B007BD636 /* ImageLoaderDemo.swift */; };
 		C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49B28210DA0007BD636 /* KnobColorDemo.swift */; };
+		C006D49F28210EE8007BD636 /* CollapsibleHStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49E28210EE8007BD636 /* CollapsibleHStackDemo.swift */; };
+		C006D4A2282115EF007BD636 /* BadgeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A1282115EF007BD636 /* BadgeDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C006D49028210CD4007BD636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C006D49828210D2B007BD636 /* ImageLoaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderDemo.swift; sourceTree = "<group>"; };
 		C006D49B28210DA0007BD636 /* KnobColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobColorDemo.swift; sourceTree = "<group>"; };
+		C006D49E28210EE8007BD636 /* CollapsibleHStackDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHStackDemo.swift; sourceTree = "<group>"; };
+		C006D4A1282115EF007BD636 /* BadgeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				C006D49728210CFD007BD636 /* 02_ImageLoader */,
 				C006D49A28210D74007BD636 /* 03_KnobColor */,
+				C006D49D28210ECC007BD636 /* 04_CollapsibleHStack */,
+				C006D4A0282115DB007BD636 /* 04_Badge */,
 				C006D48928210CD3007BD636 /* ExercisesApp.swift */,
 				C006D48D28210CD4007BD636 /* Assets.xcassets */,
 				C006D48F28210CD4007BD636 /* Preview Content */,
@@ -84,6 +90,22 @@
 				C006D49B28210DA0007BD636 /* KnobColorDemo.swift */,
 			);
 			path = 03_KnobColor;
+			sourceTree = "<group>";
+		};
+		C006D49D28210ECC007BD636 /* 04_CollapsibleHStack */ = {
+			isa = PBXGroup;
+			children = (
+				C006D49E28210EE8007BD636 /* CollapsibleHStackDemo.swift */,
+			);
+			path = 04_CollapsibleHStack;
+			sourceTree = "<group>";
+		};
+		C006D4A0282115DB007BD636 /* 04_Badge */ = {
+			isa = PBXGroup;
+			children = (
+				C006D4A1282115EF007BD636 /* BadgeDemo.swift */,
+			);
+			path = 04_Badge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +180,9 @@
 			files = (
 				C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */,
 				C006D49928210D2B007BD636 /* ImageLoaderDemo.swift in Sources */,
+				C006D4A2282115EF007BD636 /* BadgeDemo.swift in Sources */,
 				C006D48A28210CD3007BD636 /* ExercisesApp.swift in Sources */,
+				C006D49F28210EE8007BD636 /* CollapsibleHStackDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

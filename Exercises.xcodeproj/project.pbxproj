@@ -14,6 +14,8 @@
 		C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49B28210DA0007BD636 /* KnobColorDemo.swift */; };
 		C006D49F28210EE8007BD636 /* CollapsibleHStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D49E28210EE8007BD636 /* CollapsibleHStackDemo.swift */; };
 		C006D4A2282115EF007BD636 /* BadgeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A1282115EF007BD636 /* BadgeDemo.swift */; };
+		C006D4A52822DF81007BD636 /* TableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A42822DF81007BD636 /* TableViewDemo.swift */; };
+		C006D4A828263CB7007BD636 /* TestingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A728263CB7007BD636 /* TestingDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C006D49B28210DA0007BD636 /* KnobColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobColorDemo.swift; sourceTree = "<group>"; };
 		C006D49E28210EE8007BD636 /* CollapsibleHStackDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHStackDemo.swift; sourceTree = "<group>"; };
 		C006D4A1282115EF007BD636 /* BadgeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDemo.swift; sourceTree = "<group>"; };
+		C006D4A42822DF81007BD636 /* TableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemo.swift; sourceTree = "<group>"; };
+		C006D4A728263CB7007BD636 /* TestingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +61,12 @@
 		C006D48828210CD3007BD636 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				C006D4A628263CA3007BD636 /* 00_Testing */,
 				C006D49728210CFD007BD636 /* 02_ImageLoader */,
 				C006D49A28210D74007BD636 /* 03_KnobColor */,
 				C006D49D28210ECC007BD636 /* 04_CollapsibleHStack */,
 				C006D4A0282115DB007BD636 /* 04_Badge */,
+				C006D4A32822DF67007BD636 /* 05_TableView */,
 				C006D48928210CD3007BD636 /* ExercisesApp.swift */,
 				C006D48D28210CD4007BD636 /* Assets.xcassets */,
 				C006D48F28210CD4007BD636 /* Preview Content */,
@@ -106,6 +112,22 @@
 				C006D4A1282115EF007BD636 /* BadgeDemo.swift */,
 			);
 			path = 04_Badge;
+			sourceTree = "<group>";
+		};
+		C006D4A32822DF67007BD636 /* 05_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C006D4A42822DF81007BD636 /* TableViewDemo.swift */,
+			);
+			path = 05_TableView;
+			sourceTree = "<group>";
+		};
+		C006D4A628263CA3007BD636 /* 00_Testing */ = {
+			isa = PBXGroup;
+			children = (
+				C006D4A728263CB7007BD636 /* TestingDemo.swift */,
+			);
+			path = 00_Testing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C006D4A52822DF81007BD636 /* TableViewDemo.swift in Sources */,
 				C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */,
 				C006D49928210D2B007BD636 /* ImageLoaderDemo.swift in Sources */,
 				C006D4A2282115EF007BD636 /* BadgeDemo.swift in Sources */,
+				C006D4A828263CB7007BD636 /* TestingDemo.swift in Sources */,
 				C006D48A28210CD3007BD636 /* ExercisesApp.swift in Sources */,
 				C006D49F28210EE8007BD636 /* CollapsibleHStackDemo.swift in Sources */,
 			);

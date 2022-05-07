@@ -17,6 +17,7 @@
 		C006D4A52822DF81007BD636 /* TableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A42822DF81007BD636 /* TableViewDemo.swift */; };
 		C006D4A828263CB7007BD636 /* TestingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A728263CB7007BD636 /* TestingDemo.swift */; };
 		C006D4AB282640F4007BD636 /* AnimatedTableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4AA282640F4007BD636 /* AnimatedTableViewDemo.swift */; };
+		C006D4AE2826B5D2007BD636 /* BounceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4AD2826B5D2007BD636 /* BounceDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C006D4A42822DF81007BD636 /* TableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemo.swift; sourceTree = "<group>"; };
 		C006D4A728263CB7007BD636 /* TestingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDemo.swift; sourceTree = "<group>"; };
 		C006D4AA282640F4007BD636 /* AnimatedTableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTableViewDemo.swift; sourceTree = "<group>"; };
+		C006D4AD2826B5D2007BD636 /* BounceDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				C006D4A0282115DB007BD636 /* 04_Badge */,
 				C006D4A32822DF67007BD636 /* 05_TableView */,
 				C006D4A9282640A3007BD636 /* 05_AnimatedTableView */,
+				C006D4AC2826B5A1007BD636 /* 06_Bounce */,
 				C006D48928210CD3007BD636 /* ExercisesApp.swift */,
 				C006D48D28210CD4007BD636 /* Assets.xcassets */,
 				C006D48F28210CD4007BD636 /* Preview Content */,
@@ -139,6 +142,14 @@
 				C006D4AA282640F4007BD636 /* AnimatedTableViewDemo.swift */,
 			);
 			path = 05_AnimatedTableView;
+			sourceTree = "<group>";
+		};
+		C006D4AC2826B5A1007BD636 /* 06_Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				C006D4AD2826B5D2007BD636 /* BounceDemo.swift */,
+			);
+			path = 06_Bounce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C006D4AE2826B5D2007BD636 /* BounceDemo.swift in Sources */,
 				C006D4A52822DF81007BD636 /* TableViewDemo.swift in Sources */,
 				C006D4AB282640F4007BD636 /* AnimatedTableViewDemo.swift in Sources */,
 				C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */,

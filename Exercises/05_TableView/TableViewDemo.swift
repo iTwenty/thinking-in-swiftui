@@ -56,14 +56,14 @@ struct TableView<Cell: View>: View {
         VStack(alignment: .leading) {
             ForEach(0..<rows, id: \.self) { rowIndex in
                 HStack(alignment: .top) {
-                    ForEach(0..<columns, id: \.self) { columnIndex in
-                        let selected = selectedCell?.0 == rowIndex && selectedCell?.1 == columnIndex
-                        TableViewCell(cell: cells[rowIndex][columnIndex],
-                                      columnIndex: columnIndex,
-                                      width: maxColumnWidths[columnIndex],
+                    ForEach(0..<columns, id: \.self) { colIndex in
+                        let selected = selectedCell?.0 == rowIndex && selectedCell?.1 == colIndex
+                        TableViewCell(cell: cells[rowIndex][colIndex],
+                                      columnIndex: colIndex,
+                                      width: maxColumnWidths[colIndex],
                                       selected: selected)
                             .onTapGesture {
-                                selectedCell = (rowIndex, columnIndex)
+                                selectedCell = (rowIndex, colIndex)
                             }
                     }
                 }.background(rowIndex.isMultiple(of: 2) ? Color.white : Color.gray)

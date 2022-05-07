@@ -12,12 +12,11 @@ var demos = ["00 - Testing",
              "03 - KnobColor",
              "04 - Collapsible HStack",
              "04 - Badge",
-             "05 - Table View"]
+             "05 - Table View",
+             "05 - Animated Table View"]
 
 @main
 struct ExercisesApp: App {
-    @State var selectedDemo: String? = nil
-
     var body: some Scene {
         WindowGroup {
             NavigationView {
@@ -39,6 +38,7 @@ struct ExercisesApp: App {
         case demos[3]: CollapsibleHStackDemo()
         case demos[4]: BadgeDemo()
         case demos[5]: TableViewDemo()
+        case demos[6]: AnimatedTableViewDemo()
         default: Text("No demo found!")
         }
     }

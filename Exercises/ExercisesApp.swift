@@ -14,7 +14,8 @@ var demos = ["00 - Testing",
              "04 - Badge",
              "05 - Table View",
              "05 - Animated Table View",
-             "06 - Bounce Demo"]
+             "06 - Bounce",
+             "06 - Line Graph"]
 
 @main
 struct ExercisesApp: App {
@@ -41,6 +42,7 @@ struct ExercisesApp: App {
         case demos[5]: TableViewDemo()
         case demos[6]: AnimatedTableViewDemo()
         case demos[7]: BounceDemo()
+        case demos[8]: LineGraphDemo()
         default: Text("No demo found!")
         }
     }

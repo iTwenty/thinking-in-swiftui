@@ -18,6 +18,8 @@
 		C006D4A828263CB7007BD636 /* TestingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4A728263CB7007BD636 /* TestingDemo.swift */; };
 		C006D4AB282640F4007BD636 /* AnimatedTableViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4AA282640F4007BD636 /* AnimatedTableViewDemo.swift */; };
 		C006D4AE2826B5D2007BD636 /* BounceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4AD2826B5D2007BD636 /* BounceDemo.swift */; };
+		C006D4B12826CF5E007BD636 /* LineGraphDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006D4B02826CF5E007BD636 /* LineGraphDemo.swift */; };
+		C0FC32CC2827D23200D06192 /* AnimatableVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC32CB2827D23200D06192 /* AnimatableVector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		C006D4A728263CB7007BD636 /* TestingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDemo.swift; sourceTree = "<group>"; };
 		C006D4AA282640F4007BD636 /* AnimatedTableViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTableViewDemo.swift; sourceTree = "<group>"; };
 		C006D4AD2826B5D2007BD636 /* BounceDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceDemo.swift; sourceTree = "<group>"; };
+		C006D4B02826CF5E007BD636 /* LineGraphDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphDemo.swift; sourceTree = "<group>"; };
+		C0FC32CB2827D23200D06192 /* AnimatableVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableVector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				C006D4A32822DF67007BD636 /* 05_TableView */,
 				C006D4A9282640A3007BD636 /* 05_AnimatedTableView */,
 				C006D4AC2826B5A1007BD636 /* 06_Bounce */,
+				C006D4AF2826CF46007BD636 /* 06_LineGraph */,
 				C006D48928210CD3007BD636 /* ExercisesApp.swift */,
 				C006D48D28210CD4007BD636 /* Assets.xcassets */,
 				C006D48F28210CD4007BD636 /* Preview Content */,
@@ -152,6 +157,15 @@
 			path = 06_Bounce;
 			sourceTree = "<group>";
 		};
+		C006D4AF2826CF46007BD636 /* 06_LineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				C006D4B02826CF5E007BD636 /* LineGraphDemo.swift */,
+				C0FC32CB2827D23200D06192 /* AnimatableVector.swift */,
+			);
+			path = 06_LineGraph;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C006D4AE2826B5D2007BD636 /* BounceDemo.swift in Sources */,
+				C0FC32CC2827D23200D06192 /* AnimatableVector.swift in Sources */,
 				C006D4A52822DF81007BD636 /* TableViewDemo.swift in Sources */,
 				C006D4AB282640F4007BD636 /* AnimatedTableViewDemo.swift in Sources */,
 				C006D49C28210DA0007BD636 /* KnobColorDemo.swift in Sources */,
@@ -231,6 +246,7 @@
 				C006D4A828263CB7007BD636 /* TestingDemo.swift in Sources */,
 				C006D48A28210CD3007BD636 /* ExercisesApp.swift in Sources */,
 				C006D49F28210EE8007BD636 /* CollapsibleHStackDemo.swift in Sources */,
+				C006D4B12826CF5E007BD636 /* LineGraphDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

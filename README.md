@@ -1,1 +1,1 @@
-Chapterwise solutions for exercises in the book "Think in SwiftUI"
+Chapterwise solutions for exercises in the book "Thinking in SwiftUI"
